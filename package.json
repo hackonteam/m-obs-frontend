@@ -2,7 +2,7 @@
   "name": "m-obs-web",
   "version": "0.1.0",
   "private": true,
-  "packageManager": "pnpm@9.0.0",
+  "packageManager": "pnpm@8.15.0",
   "engines": {
     "node": ">=18.0.0"
   },
