@@ -2,7 +2,9 @@
  * API client for M-OBS API
  */
 
-const API_BASE_URL = import.meta.env.PUBLIC_API_URL || 'http://localhost:8000';
+// PRODUCTION: Hardcoded to fix env var issue
+const API_BASE_URL = 'https://m-obs-api.onrender.com';
+// const API_BASE_URL = import.meta.env.PUBLIC_API_URL || 'http://localhost:8000';
 
 export interface ApiResponse<T> {
 	data?: T;
